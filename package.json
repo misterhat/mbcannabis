@@ -1,0 +1,32 @@
+{
+  "name": "mbcannabis",
+  "version": "1.0.0",
+  "description": "scrape cannabis data from manitoba dispenseries",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misterhat/mbcannabis.git"
+  },
+  "keywords": [
+    "cannabis",
+    "mb",
+    "manitoba",
+    "thc"
+  ],
+  "author": "Zorian Medwid <misterhat144@gmail.com>",
+  "license": "AGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/misterhat/mbcannabis/issues"
+  },
+  "homepage": "https://github.com/misterhat/mbcannabis#readme",
+  "dependencies": {
+    "async-await-parallel": "^1.0.0",
+    "cheerio": "^1.0.0-rc.6",
+    "got": "^11.8.2",
+    "promise-limit": "^2.7.0",
+    "striptags": "^3.1.1"
+  }
+}
